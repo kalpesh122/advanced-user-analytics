@@ -1,7 +1,3 @@
-To ensure your interviewer can set up the environment and run your tests, you should provide clear installation and setup instructions. Here's a comprehensive guide you can include:
-
----
-
 ### Setup Instructions for the Project
 
 #### Prerequisites
