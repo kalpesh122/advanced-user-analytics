@@ -1,0 +1,17 @@
+# Development-specific files and directories
+node_modules/
+.git/
+.vscode/
+.idea/
+
+
+
+# Development dependencies
+*.ts
+tsconfig.json
+.eslintrc
+.prettierrc
+eslint-plugin/
+@typescript-eslint/
+
+
