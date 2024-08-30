@@ -11,8 +11,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/kalpesh122/advanced-user-analytics.git
+   cd advanced-user-analytics
    ```
 
 2. **Install Dependencies**
