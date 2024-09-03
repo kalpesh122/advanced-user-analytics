@@ -32,24 +32,21 @@
    DB_USER=<your-database-username>
    DB_PASSWORD=<your-database-password>
    DB_HOST=localhost
+   NODE_ENV = development
+   PORT = 8000
    ```
 
 4. **Setup MySQL Database**
 
    - **Create Database**: Ensure you have created a MySQL database matching the `DB_NAME` specified in your `.env` file.
 
-   - **Run Database Migrations**: Ensure your Sequelize models are synchronized with the database:
-
-     ```bash
-     npm run seed
-     ```
 
 5. **Run Tests**
 
    Ensure MySQL is running, and then execute the tests:
 
    ```bash
-   npm test
+   npm run test
    ```
 
 6. **Run the Application**

@@ -4,10 +4,10 @@
   "description": "",
   "main": "index",
   "scripts": {
-    "start": "pm2 start --interpreter ts-node-dev --name AuthBoilerplate src/api/v1/index.ts",
+    "start": "pm2 start --interpreter ts-node-dev --name AdvancedUserAnalytics src/api/v1/index.ts",
     "dev": "ts-node-dev src/api/v1/index",
     "test": "jest --config jest.config.js",
-    "prod": "pm2 start --interpreter ts-node --name AuthBoilerplate src/api/v1/index.ts",
+    "prod": "pm2 start --interpreter ts-node --name AdvancedUserAnalytics src/api/v1/index.ts",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
@@ -48,6 +48,7 @@
     "sequelize-typescript": "^2.1.6",
     "supertest": "^6.3.3",
     "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "uuid": "^9.0.0",
     "winston": "^3.9.0",
     "winston-elasticsearch": "^0.17.2"
@@ -74,7 +75,6 @@
     "jest": "^29.7.0",
     "prettier": "^2.8.8",
     "ts-jest": "^29.2.5",
-    "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   }
 }
